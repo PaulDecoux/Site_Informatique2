@@ -97,3 +97,25 @@ h1{
   margin: 0 auto;
   width: 100%;
 }
+@media (max-width: 320px) {
+  .souri-1{
+    display: block;
+    margin-left: 0px;
+    opacity: inherit;
+    width: 100%;
+  }
+  footer{
+    display: none;
+  }
+  .contenu{
+    width: 100%;
+    margin-left: 0;
+  }
+  #float-L{
+    float: inherit;
+  }
+  #monselect{
+    margin: 0px;
+    width: 100%;
+  }
+}
