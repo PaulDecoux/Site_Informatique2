@@ -24,6 +24,7 @@ footer{
   background-color: #f2f2f2;
 }
 nav{
+  position: relative;
   background-color: #333333;
   text-align: center;
   font-weight: bold;
@@ -53,9 +54,8 @@ nav > a {
   width: 350px;
 }
 .Global{
-  display: -moz-grid-line;
+  position: absolute;
   margin-left: 9%;
-  margin-top: 2%;
 
 }
 #footerDes{
@@ -63,28 +63,16 @@ nav > a {
 }
 .souri-1:hover{
   opacity: inherit;
-  padding: 8px;
-}
-.souri-2:hover{
-  opacity: inherit;
-  padding: 8px;
-}
-.souri-3:hover{
-  opacity: inherit;
-  padding: 8px;
-}.souri-1{
-  opacity: 0.3;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.souri-2{
-  font-family: 'Roboto Condensed', sans-serif;
-  opacity: 0.3;
+
 }
 
-.souri-3{
-  font-family: 'Roboto Condensed', sans-serif;
+.souri-1{
   opacity: 0.3;
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  vertical-align: text-top;
 }
+
 h1{
   text-align: center;
 }
@@ -95,9 +83,15 @@ h1{
 }
 #float-L{
   float: left;
+  border: 2px solid black;
+  margin-right: 5px;
 }
 .form{
-  margin: 0 auto;
+  margin: 3% auto;
   width: 20%;
   text-align: center;
+}
+#monselect{
+  margin: 0 auto;
+  width: 100%;
 }
