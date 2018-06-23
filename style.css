@@ -54,8 +54,8 @@ nav > a {
   width: 350px;
 }
 .Global{
-  position: absolute;
-  margin-left: 9%;
+  width: 85%;
+  margin: auto;
 
 }
 #footerDes{
