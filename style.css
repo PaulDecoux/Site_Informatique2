@@ -52,6 +52,7 @@ nav > a {
 #Logitech2,
 #Logitech3{
   width: 350px;
+  margin: 0 auto;
 }
 .Global{
   width: 85%;
@@ -126,8 +127,21 @@ h1{
   #float-L{
     float: inherit;
   }
-  #monselect{
-    margin: 0px;
+  .form{
+    margin: 0 auto;
     width: 100%;
+  }
+  input{
+    margin: 0 auto;
+    width: 100%;
+  }
+  }
+  #Logitech{
+    width: 320px;
+  }
+  #Logitech1,
+  #Logitech2,
+  #Logitech3{
+    width: 290px;
   }
 }
