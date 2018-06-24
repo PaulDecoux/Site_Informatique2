@@ -110,7 +110,7 @@ h1{
 
 }
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 320px) {
   .souri-1{
     display: block;
     margin-left: 0px;
